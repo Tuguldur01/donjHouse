@@ -1,0 +1,36 @@
+<template name="material">
+    {{> nav}}
+    <div class="section no-pad-bot" id="index-banner" style="background-image: url('https://d2vml5oyldbdvd.cloudfront.net/static/images/how-works-construction-process-background.cf6f3a8b6aa7.jpg'); background-repeat: no-repeat; background-size: cover">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>Барилгын материал</span><br>
+                <span><h5 class="white-text">
+                    Манай “Донж Хацу” ХХК нь Орос, Герман, Шинэ Зеланд зэрэг орнуудын барилгын материалыг үйлдвэрээс нь шууд нийлүүлэх эрхтэйгээр үйл ажиллагаагаа явуулж байна.
+                </h5></span>
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        {{#each materials}}
+            <div class="col s12 m6 l3">
+                <p>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{url}}">
+                        <span class="card-title">{{title}}</span>
+                    </div>
+                    <div class="card-content">
+                        <p>{{{content}}}</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/service/7/{{_id}}">Дэлгэрэнгүй</a>
+                    </div>
+                </div>
+                </p>
+            </div>
+        {{/each}}
+    </div>
+
+    {{> intro}}
+    {{> footer}}
+</template>

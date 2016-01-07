@@ -1,0 +1,59 @@
+<template name="pool">
+    {{> nav}}
+    <content>
+        <div class="section no-pad-bot" id="index-banner" style="background-image: url('../img/home.jpg'); background-repeat: no-repeat; background-size: cover">
+            <div class="container">
+                <h1 class="text_h center header cd-headline letters type">
+                    <span>Бассейн</span><br>
+                    <span><h5 class="white-text">Mанай компаний хамт олон танд өөрийн хувийн сууцандаа, өөрийн эдэлбэр газартаа гэр бүлийн бассейнтай болох боломжийг санал болгож байна. Ингэснээр та цаг зав гарган усан спортын төв хайж, олон хүнтэй зэрэгцэн сэлэх гэж зүдрэхгүй болох бөгөөд өөрийн хувийн бассейн нь нийтийн бассейнаас ариун цэвэр, эрүүл ахуйн хувьд харьцангуй давуу талтай байх болно.</h5></span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            {{#each pools}}
+                <div class="col s12 m6 l3">
+                    <p>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="{{url}}">
+                                <span class="card-title">{{title}}</span>
+                            </div>
+                            <div class="card-content">
+                                <p>{{{content}}}</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="/service/2/{{_id}}">Дэлгэрэнгүй</a>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            {{/each}}
+        </div>
+    {{> intro}}
+
+
+    </content>
+    {{> footer}}
+</template>
+
+<template name="intro">
+    <div class="section no-pad-bot" id="index-banner2" style="background-image: url('../img/pool/back.jpg'); background-repeat: no-repeat; background-size: cover">
+        <div class="container">
+            <h1 class="text_hq center header cd-headline letters type">
+                <span><h3>Та өөрийн загварыг сонгсоны дараа</h3></span>
+                <span><h5>Бид таны хэрэгцээнд тохируулан өөрчилөх болно</h5></span>
+                <span>
+                    <h6>
+                        Та өөрийн хэрэгцээ, боломжиндоо тааруулсан планыг сонгсоны дараа, Манай мэргэжлийн хамт олон
+                        таньтай хамт таны сонголтыг таны хүсэл, нөхцөл байдалд тулгуурлан өөрчлөх болно. Хэрэв танд
+                        өөрийн план байгаа бол барилгын ажил эхлэхээс өмнө ашиглаж болно.
+                    </h6>
+                </span>
+            </h1>
+            <center>
+                <a class="waves-effect waves-light btn" href="/howitworks"><i class="material-icons left">live_help</i>Үйл ажиллагаа хэрхэн явагдах вэ</a>
+            </center>
+        </div>
+    </div>
+</template>

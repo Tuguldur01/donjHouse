@@ -1,0 +1,35 @@
+<template name="modonDotorlogoo">
+    {{> nav}}
+    <div class="section no-pad-bot" id="index-banner" style="background-image: url('../img/home.jpg'); background-repeat: no-repeat; background-size: cover">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>Модон доторлогоо</span><br>
+                <span><h5 class="white-text">
+                    ОХУ-ын цэвэр модон рек. Модон доторлогоо нь тансаг байдлыг илтгэхийн зэрэгцээ нарс мод нь цорын ганц насан туршид амьсгалдаг мод тул уушиг хамгаалдаг болох нь эрдэм шинжилгээний ажлаар баталгаажжээ.
+                </h5></span>
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        {{#each mDotorlogoos}}
+            <div class="col s12 m6 l3">
+                <p>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{url}}">
+                        <span class="card-title">{{title}}</span>
+                    </div>
+                    <div class="card-content">
+                        <p>{{{content}}}</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/service/3/{{_id}}">Дэлгэрэнгүй</a>
+                    </div>
+                </div>
+                </p>
+            </div>
+        {{/each}}
+    </div>
+    {{>intro}}
+    {{>footer}}
+</template>

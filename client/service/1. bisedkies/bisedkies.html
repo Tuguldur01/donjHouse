@@ -1,0 +1,35 @@
+<template name="suudrevch">
+    {{> nav}}
+    <div class="section no-pad-bot" id="index-banner" style="background-image: url('../img/home.jpg'); background-repeat: no-repeat; background-size: cover">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>Сүүдрэвч</span><br>
+                <span><h5 class="white-text">Mанай компаний хамт олон танд өөрийн хувийн талбайдаа Сүүдрэвчтэй болох боломжийг санал болгож байна.
+                        Та өөрийн хүссэн хэмжээ, хэв маягтаа тохируулан хийлгэж болно.
+                      </h5></span>
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        {{#each suudrevchs}}
+            <div class="col s12 m6 l3">
+                <p>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{url}}">
+                        <span class="card-title">{{title}}</span>
+                    </div>
+                    <div class="card-content">
+                        <p>{{{content}}}</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/service/1/{{_id}}">Дэлгэрэнгүй</a>
+                    </div>
+                </div>
+                </p>
+            </div>
+        {{/each}}
+    </div>
+    {{> intro}}
+    {{> footer}}
+</template>

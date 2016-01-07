@@ -1,0 +1,34 @@
+<template name="blogTemplate">
+    {{> nav}}
+    <div class="section no-pad-bot" id="index-banner" style="background-image: url('../img/pool/blog-header.jpg'); background-repeat: no-repeat; background-size: cover">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>Донж хаус</span><br>
+                <span><h5 class="white-text">
+                    BLOG
+                </h5></span>
+            </h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {{#each posts}}
+                <div class="col s12 m4">
+                    <div class="card large">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img src="http://imgs.abduzeedo.com/files/gismullr/beautifulhouses/bh285/sh05.jpg">
+                            <span class="card-title">{{title}}</span>
+                        </div>
+                        <div class="card-content">
+                            <p>{{body}}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="/blog/{{_id}}">Дэлгэрэнгүй</a>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+    {{> footer}}
+</template>

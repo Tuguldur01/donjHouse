@@ -1,0 +1,51 @@
+<template name="homeplans">
+    {{> nav}}
+    <!--billboard heseg-->
+    <div class="section no-pad-bot" id="index-banner" style="background-image: url('../img/pool/back.jpg'); background-repeat: no-repeat; background-size: cover">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>Загварууд</span><br>
+                <span><h5 class="white-text">
+                    Бид танд төрөл бүрийн байшингийн загваруудыг санал болгож байна. Та өөрийн гэр бүр болон нөхцөл байдалдаа тулгуурлан ямар онцлогтой загвар сонгохоо шийдэж болно. Манай мэргэжлийн багийнханы бэлдсэн дараах загварууд танд олон давуу талуудыг авчирах болно. Мөн та өөрийн хүссэн загварыг ч ашигласан болно.
+                </h5></span>
+            </h1>
+        </div>
+    </div><br><br>
+
+    <!--card-uud ehellee-->
+    <div class="container">
+        <a class="btn waves-effect waves-green" href="homeplans/elite">Элит хаус</a>
+        <a class="btn waves-effect waves-green" href="homeplans/modern">Модерн хаус</a>
+        <a class="btn waves-effect waves-green" href="homeplans/songodog">Сонгодог хаус</a>
+        <a class="btn waves-effect waves-green" href="homeplans/dunzen">Дүнзэн хаус</a>
+        <a class="btn waves-effect waves-green" href="homeplans/canada">Канад хаус</a>
+        <a class="btn waves-effect waves-green" href="homeplans/engiin">Энгийн хаус</a>
+    </div><br>
+    <div id="container">
+        <div class="row">
+            {{#each homePlanss}}
+                <div class="col s12 m6 l3">
+                    <p>
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="{{url}}">
+                            <span class="card-title"><a id="a" href="homeplans/{{_id}}">{{title}}</a></span>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Төрөл: {{category.categoryName}}<br>
+                                {{category.description}}
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="homeplans/{{_id}}">Дэлгэрэнгүй</a>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+    {{>footer}}
+
+</template>

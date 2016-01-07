@@ -1,0 +1,466 @@
+<template name="homeTemplate">
+    {{> nav}}
+    {{> content}}
+    {{> footer}}
+</template>
+
+<template name="content">
+    <content>
+        {{>sliderTemplate}}
+
+        <!--Intro and service-->
+        <div id="intro" class="section scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div  class="col s12">
+                        <h3 class="center header text_h2"><span class="span_h2">Барилга бариулах нь том алхам,</span> Гэхдээ та
+                            айх хэрэггүй. Бидний зорилго бол таньд хамгийн <span class="span_h2">хялбар</span> байдлаар, таны
+                            хүссэн барилгийг танд байгуулж өгөх юм. Биднийг <span class="span_h2">сонгох</span> шатлгаан бол
+                        </h3>
+                    </div>
+
+                    <div  class="col s12 m4 l4">
+                        <div class="center promo promo-example">
+                            <i class="mdi-image-flash-on"></i>
+                            <h5 class="promo-caption">Туршлага</h5>
+                            <p class="light center">
+                                Бидний олон жилүүдийн хийж бүтээсэн зүйлүүд дээр үндэслэсэн туршлага нь танд хамгийн чанартай,
+                                ашигтай байдлыг бий болгоно
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="center promo promo-example">
+                            <i class="mdi-social-group"></i>
+                            <h5 class="promo-caption">Хэрэглэгчийн ашигтай байдал</h5>
+                            <p class="light center" >
+                                Бидний гол зорилго бол таны хүсэлд тань нийцүүлэх юм. Тийм ч учраас бид
+                                хийх ажил бүрээ таны хэрэгцээ шаардлагыг биелүүлэхийн төлөө ажиллана
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="center promo promo-example">
+                            <i class="mdi-action-assignment"></i>
+                            <h5 class="promo-caption">Ойлгомжтой байдал</h5>
+                            <p class="light center" style="text-align: justify">
+                                Манай хамт олон танд ажилын үйл явцын тухай хүссэн зүйлийг тань тухай бүрт нь мэдээллэж
+                                байхад нээлттэй байх болно. Бид үйлчлүүлэгчидээ үргэлж дээдэлдэг.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Work-->
+        <div class="section scrollspy" id="work">
+
+            <div class="container">
+                <h3 class="center header span_h2">Та ямар төрлийн барилга бариулахыг хүсч байна?
+                    <h4 class="center text_h2">Та болон танай гэр бүлийн хүсэл, шаардлагад нийцсан
+                        байшингийн загваруудыг бид танд санал болгож байна.
+                    </h4>
+                </h3>
+            </div><br><br><br>
+            <div id="container">
+
+                <div class="row">
+                    <!--Элит-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/portfolio/eliteHouse.jpg" height="400px">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Элит хаус<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="/homeplans/elite">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4 center">ТАНСАГ ХЭРЭГЛЭЭ ТАВ ТУХ ЭРХЭМСЭГ ОРШИХУЙ<i class="mdi-navigation-close right"></i></span>
+                                <p style="text-align: justify;">
+                                    <b>Суурь:</b> Ажлын зурагт заасны дагуу /хөрсний онцлогт тохируулан/ тавина.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Хана: </b>Төмөр бетон каркас, хөнгөн бетон дүүргэлт, 8 балл-ын газар хөдлөлтөнд тэсвэртэй. Дотор
+                                    хана тоосгон рөгт бүтээцтэй. Дуу чимээ тусгаарласан. Гадна хана давхар дулаалгатай.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Экстерьер: </b> Захиалагчийн хүсэлтээр Орос тоосго, Герман сайдинг, Солонгос чулуун эмульс г.м.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Цэвэр бохир: </b> Бие даасан шийдэлтэй (500 мл нөөцийн сав, 8-10тө цооног)
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Интерьер: </b> Захиалагчийн хүсэлтээр зурагт каасны дагуу.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Шал: </b> Германы PARADOR фирмийн паркет
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Хаалга: </b> Герман модон хаалга өнгөний өргөн сонголттой.
+                                </p>
+                                <p><a href="/homeplans/elite">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Модерн хаус-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/portfolio/modernHouse.jpg" height="400px">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Модерн хаус<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="/homeplans/modern">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4 center">ТАНСАГ ОРЧИН ТАНЫ НАСАН ТУРШИЙН АМЬДРАЛЫН БАТАЛГАА<i class="mdi-navigation-close right"></i></span>
+                                <p style="text-align: justify;">
+                                    <b>Суурь:</b> Ажлын зурагт заасны дагуу /хөрсний онцлогт тохируулан/ тавина.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Хана:</b> Бүрэн цутгамал, Дуу чимээ тусгаарласан. Гадна хана давхар дулаалгатай.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Суурь:</b> Ажлын зурагт заасны дагуу /хөрсний онцлогт тохируулан/ тавина.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Экстерьер: </b> Захиалагчийн хүсэлтээр Орос тоосго, Герман сайдинг, Солонгос чулуун эмульс г.м.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Цэвэр бохир: </b> Бие даасан шийдэлтэй (500 мл нөөцийн сав, 8-10тө цооног)
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Интерьер: </b> Захиалагчийн хүсэлтээр зурагт каасны дагуу.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Шал: </b> Солонгос брэндийн ус чийгний хамгаалалттай маш бат бөх зурагддаггүй ламинатан шал.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Хаалга: </b> Герман модон хаалга өнгөний өргөн сонголттой.
+                                </p>
+                                <p><a href="/homeplans/modern">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Сонгодог хаус-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/portfolio/songodogHouse.jpg" height="400px">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Сонгодог хаус<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="/homeplans/songodog">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4 center">МӨНХИЙН ЭРЧ ХҮЧ СЭТГЭЛ ХАНАМЖИЙН ИЛЭРХИЙЛЭЛ<i class="mdi-navigation-close right"></i></span>
+                                <p style="text-align: justify;">
+                                    <b>Суурь:</b> Ажлын зурагт заасны дагуу /хөрсний онцлогт тохируулан/ тавина.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Хана:</b> 64 см тоосгон хана нь төмөр бетон хучилттай байх ба Гадна фасад нь хэзээ ч өнгө алдахгүй, орос өнгөлгөөний
+                                    тоосго юм. Дээрх технологи нь хамгийн өндөр дулааны үзүүлэлттэй байдаг.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Суурь:</b> Ажлын зурагт заасны дагуу /хөрсний онцлогт тохируулан/ тавина.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Экстерьер: </b> Захиалагчийн хүсэлтээр Орос тоосго, Герман сайдинг, Солонгос чулуун эмульс г.м.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Цэвэр бохир: </b> Бие даасан шийдэлтэй (500л чех бойлуур, 8-10тө цооног)
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Цахилгаан: </b> SAMSUNG брэндийн цаилгааний тоноглол, төгс мэдрэгчтэй дижитал цоож, мэдрэгчтэй гэрэл
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Шал: </b> Модерн загварийн цэвэр модон гоёлын шат загварын өргөн сонголттой хийлгэж болох ба эдэлгээний хувьд хамгийн зөв сонголт юм.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Хаалга: </b> Герман модон хаалга өнгөний өргөн сонголттой.
+                                </p>
+                                <p><a href="/homeplans/songodog">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Дүнзэн хаус-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/portfolio/dunzenHouse.jpg" height="400px">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Дүнзэн хаус<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="/homeplans/dunzen">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4 center">ЭРҮҮЛ ОРЧИН ГЭР БҮЛИЙН ТАНЬ ҮНЭТ БАЯЛАГ<i class="mdi-navigation-close right"></i></span>
+                                <p style="text-align: justify;">
+                                    <b>Суурь:</b> Ажлын зурагт заасны дагуу /хөрсний онцлогт тохируулан/ тавина.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Хана:</b> 20-22дм тэй ОХУ-ын сибирийн зормол бөөрөнхий дүнз. Барилгын суулт 6-8% нэмэлт далаалгайтай.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Экстерьер: </b> Галын хамгаалалттай, хорхой шавжнаас сэргийлсэн түрхлэг, өнгийн лак
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Цэвэр бохир: </b> Бие даасан шийдэлтэй (50 л бойлуур, 6 тн цооног)
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Дулаалга: </b> АНУ-ийн модон барилгад зориулсан R19 эрдэс хөвөн. Галд шатдаггүй эрүүл мэндэд хоргүй харшил өгөхгүй.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Цонх: </b> Солонгос технологийн LG брэндийн вакум цонх.
+                                </p>
+                                <p style="text-align: justify;">
+                                    <b>Доторлогоо: </b> ОХУ-н 8% чийгшилтэй нарс модон доторлогооны рек мод. Багалийн үнэрээр таныг тайвшруулна.
+                                </p>
+                                <p><a href="/homeplans/dunzen">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Канад хаус-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/portfolio/canadaHouse.jpg" height="400px">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Канад хаус<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="/homeplans/canada">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4 center">ХАЙР ДҮҮРЭН ЭРҮҮЛ АМЬДРАЛ ДОТНО ОРОН ЗАЙ<i class="mdi-navigation-close right"></i></span>
+                                <p style="text-align: justify;">
+                                    хөгжүүлэгдэж байна.
+                                </p>
+                                <p><a href="/homeplans/canada">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Энгийн хаус-->
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/portfolio/engiinHouse.jpg" height="400px">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Энгийн хаус<i class="mdi-navigation-more-vert right"></i></span>
+                                <p><a href="/homeplans/engiin">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4 center">ХАЙР ДҮҮРЭН ЭРҮҮЛ АМЬДРАЛ ДОТНО ОРОН ЗАЙ<i class="mdi-navigation-close right"></i></span>
+                                <p style="text-align: justify;">
+                                    хөгжүүлэгдэж байна.
+                                </p>
+                                <p><a href="/homeplans/engiin">Энэ төрлийн бүх план зургуудыг үзэх</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <center><a class="btn waves-effect waves-light" href="/homeplans">Бүх план зургуудыг үзэх
+                    <i class="mdi-action-open-in-browser"></i>
+                </a>
+                </center><br>
+            </div>
+        </div>
+        <!--Parallax-->
+        <div class="parallax-container">
+            <div class="parallax"><img src="https://d2vml5oyldbdvd.cloudfront.net/static/images/home-plan-picker-background.398c9eb923ce.jpg"></div>
+        </div>
+
+        <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <h1 class="text_h center header cd-headline letters type">
+                    <span>Та газраа бэлд</span>
+            <span class="cd-words-wrapper waiting">
+                <b class="is-visible">Бусдыг нь бид Цогцолооё</b>
+                <!--<b>Та газраа бэлд</b>-->
+                <!--<b>Бусдыг нь бид Цогцолооё</b>-->
+            </span>
+                </h1>
+            </div>
+        </div>
+
+        <!--Team-->
+        <div class="section scrollspy" id="team">
+            <div class="container">
+                <h2 class="center text_h2">Бид танд дараах төлбөрийн нөхцөлүүдийг санал болгож байна.</h2>
+                <div class="row">
+                    <div class="col s14 m4">
+                        <div class="card-panel teal">
+                            <h3 class="center white-text">"Урьдчилсан захиалга"</h3>
+                            <p class="white-text" style="text-align: justify">
+                                <!--<h5 class="center">Захиалга авах нөхцөл</h5>-->
+                                Та урьдчилгаа ердөө 5-20% хүртэл төлөөд 2016 оны 1-р ээлжийн захиалганд барилгаа
+                                эхлүүлэх боломжтой болно
+                            <h4 class="center">Давуу талууд</h4>
+                            <ul>
+                                <li>1. Үнийн өсөлтөөс сэргийлнэ</li>
+                                <li>2. Барилгын 3D болон ажлын бүтэн зураг гаргуулна</li>
+                                <li>3. 2016 оны эхний ээлжинд барилгаа хүлээж авна</li>
+                            </ul>
+                            <h4 class="center">Урамшуулал</h4>
+                            <ul>
+                                <li>1. 30% төлбөл халаалт үнэгүй + гараж 50%</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s14 m4">
+                        <div class="card-panel teal">
+                            <h3 class="center white-text">"Урамшуулалтай захиалга"</h3>
+                            <p class="white-text" style="text-align: justify">
+                                <!--<h5 class="center">Захиалга авах нөхцөл</h5>-->
+                                Та 100м2-аас дээш хэмжээтэй барилгын урьдчилгаа 50-100% -г төлөөд
+                                40 хүртэлх сая төгрөгтөй тэнцэхүйц урамшуулал авах боломжтой
+                            <h4 class="center">Давуу талууд</h4>
+                            <ul>
+                                <li>1. Үнийн өсөлтөөс сэргийлнэ</li>
+                                <li>2. Барилгын 3D болон ажлын бүтэн зураг гаргуулна</li>
+                                <li>3. 2016 оны эхний ээлжинд барилгаа хүлээж авна</li>
+                            </ul>
+                            <h4 class="center">Урамшуулал</h4>
+                            <ul>
+                                <li>1. 50% төлбөл гараж</li>
+                                <li>2. 60% төлбөл камень зуух</li>
+                                <li>3. 70% төлбөл цонхны хаалт</li>
+                                <li>4. 80% төлбөл гал тогооны тавилга</li>
+                                <li>5. 90% төлбөл гүний худаг</li>
+                                <li>6. 100% төлбөл биседки!?</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s14 m4">
+                        <div class="card-panel teal">
+                            <h3 class="center white-text">"Зээлийн эрхтэй захиалга"</h3>
+                            <p class="white-text" style="text-align: justify">
+                                <!--<h5 class="center">Захиалга авах нөхцөл</h5>-->
+                                Та урьдчилгаа 50% төлөөд үлдсэн 50%-г 1-1,5% хүүтэй 5 хүртэлх
+                                жилийн хүүтэй зээлээр бариулах боломжтой.
+                            <h4 class="center">Давуу талууд</h4>
+                            <ul>
+                                <li>1. Банкны хүүнээс бага хүүтэй ?!?!</li>
+                                <li>2. Давхар барьцаагүй зээлд ?1?!?!</li>
+                                <li>3. Хөнгөлөлттөй нөхцөлтөй богино хугацааны зээлээр орон сууцнаас
+                                    тав тухтай амины сууцтай болох.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Parallax-->
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/back.jpg"></div>
+        </div>
+        <!--manai hamt olon-->
+        <div class="section scrollspy" id="intro">
+            <div class="container">
+                <h2 class="center header text_b">Бидний тухай</h2>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <div class="card card-avatar teal">
+                            <div class="card-content">
+                                <span class="card-title activator white-text">Манай хамт олон <br/></span>
+                                <p class="white-text" style="text-align: justify">
+                                    Одоогийн байдлаар Монгол улсын зөвлөх инженер 1, архитектурч 1, төсөвчин 1, талбайн инженер 5,
+                                    технологич 1, сантехникийн инженер 1, цахилгааны инженер 1, хөдөлмөр хамгааллын инженер 1,
+                                    техникч 2, жолооч 5 нийт үндсэн 85, туслах 60 гаруй ажилчидтай үйл ажиллагаагаа явуулж байна.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="card-content">
+                                <p style="text-align: justify">
+                                    Бид амины орон сууц барьдаг анхны тэргүүлэгч компаний нэг бөгөөд өнөөг хүртэл 400
+                                    гаруй амины орон сууц болон эмнэлэг, үйлчилгээнйи барилгуудыг барьсаар байна.
+                                    Манай компани амины орон сууцыг тоосгон өрөгт, модон каркасан, цутгамал болон
+                                    модон өрөгт бүтэцтэйгээр мэргэжлийн өндөр түвшинд барьж байгаа бөгөөд 5 хүртэл
+                                    давхар барилгыг тоосгон өрөгт болон цутгамал бүтэцтэйгээр барьж байна
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar teal">
+                            <div class="card-content">
+                                <span class="card-title activator white-text">Эрхэм зорилго<br/></span>
+                                <p class="white-text" style="text-align: justify">
+                                    Бид амины орон сууцыг эрүүл мэндэд ээлтэй материалаар байгаль орчинд хор нөлөөгүй, тав
+                                    тухтай амьдрах нөхцөлийг бүрдүүлсэн, цэвэр бохирын систем болон халаалтыг цогцоор нь
+                                    шийдэж нийтийн орон сууцнаас харьцангуй хямд үнэтэй, богино хугацаанд барихыг зорилгоо
+                                    болгон ажиллаж байна.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m3">
+                        <div class="card card-avatar">
+                            <div class="card-content">
+                                <p style="text-align: justify">
+                                    Манай компани нь 7 хүртэл давхар барилга барих эрх бүхий барилга угсралтын тусгай
+                                    зөвшөөрөлтэй бөгөөд БСШУЯ-ны урилгаар Өмнөговь аймгийн Манлай суманд баригдах 100
+                                    хүүхдийн цэцэрлэгийн тендэрт амжилттай оролцож канад технологийн модон каркасан
+                                    барилга, мөн яамны урилгаар Архангай аймгийн Эрдэнэбулган суманд баригдах номын
+                                    сангийн барилгын тендэрт амжилттай оролцож технологийн дагуу чанарын өндөр түвшинд гүйцэтгэж байна.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--хүмүүс юу хэлж байна-->
+        <div class="section no-pad-bot" id="index-banner2" style="background-image: url('../img/familgy.jpg'); background-repeat: no-repeat; background-size: cover">
+            <div class="container">
+                <h1 class="text_hq center header cd-headline letters type">
+                    <span><h2>Үйлчлүүлэгчид Donj-House-н талаар юу хэлж байна вэ?</h2></span>
+                <span>
+                    <h6>
+                        Та зөвхөн бидний ярьж байгааг биш
+                        бусад үйлчлүүлэгчидийн бариулсан барилга болон тэдгээрийн манай компаны талаарх
+                        сэтгэгдэлийг үзэх болно.
+                    </h6>
+                </span>
+                </h1>
+                <center>
+                    <a class="waves-effect waves-light btn" href="/blog"><i class="material-icons left">live_help</i>Үйлчлүүлэгчидийн сэтгэгдэл</a>
+                </center>
+            </div>
+        </div>
+
+
+
+
+    </content>
+</template>
+
+<template name="sliderTemplate">
+    <div class="slider" style="height: 900px;">
+        <ul class="slides">
+            <li>
+                <img src="img/sliderPic1.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3 class="span_h2">Донж хаус</h3>
+                    <h5 class="span_h2">Та газраа бэлд бусдыг нь бид цогцлооё.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/sliderPic2.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3 class="text-black">Зуун наст хотхон</h3>
+                    <h5 class="light grey-text text-lighten-3">Үнэ. 1мкв нь 2,200,000төгрөг</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+</template>
