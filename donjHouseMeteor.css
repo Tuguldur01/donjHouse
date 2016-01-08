@@ -11268,6 +11268,7 @@ nav {
 }
 #contact {
     background-color: #00796B;
+    margin-top: -20px;
 }
 main {
     flex: 1 0 auto;
