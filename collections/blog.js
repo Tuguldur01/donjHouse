@@ -11,9 +11,23 @@ postSchema = new SimpleSchema({
             type: String,
             label: 'Title'
         },
+        url: {
+            type: String,
+            label: "Зургийн хаяг"
+        },
         body: {
             type: String,
-            label: 'Body'
+            label: "Тайлбар"
+        },
+        content: {
+            type: String,
+            label: "Контент",
+            autoform: {
+                afFieldInput: {
+                    type: 'summernote',
+                    class: 'editor'
+                }
+            }
         },
         userId: {
             type: String,

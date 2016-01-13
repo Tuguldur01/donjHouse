@@ -1,0 +1,20 @@
+<template name="blogSingle">
+    {{> nav}}
+    <div class="container">
+
+        <div class="row">
+            <div class="col s14 m10">
+                <div class="card-panel">
+                    <center>
+                        <div class="card-image">
+                            <img src="{{url}}">
+                        </div>
+                        <h3>{{title}}</h3>
+                    </center>
+
+                    {{{content}}}
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

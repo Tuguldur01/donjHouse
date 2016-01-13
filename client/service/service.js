@@ -1,12 +1,6 @@
-Template.service.onCreated(function () {
+Template.serviceSingle.onCreated(function () {
     var self = this;
     self.autorun(function () {
-        self.subscribe('pool');
+        self.subscribe('service');
     })
-});
-
-Template.service.helpers({
-    serviceData: function() {
-        return pool.find({});
-    }
 });

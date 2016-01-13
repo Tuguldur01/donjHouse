@@ -10,3 +10,9 @@ Template.blogTemplate.helpers({
         return posts.find({});
     }
 });
+Template.blogSingle.onCreated(function () {
+    var self = this;
+    self.autorun(function () {
+        self.subscribe('posts');
+    })
+});
