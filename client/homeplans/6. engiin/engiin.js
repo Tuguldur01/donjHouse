@@ -1,12 +1,12 @@
 Template.engiin.onCreated(function () {
     var self = this;
     self.autorun(function () {
-        self.subscribe('homePlans');
+        self.subscribe('engiin');
     })
 });
 
 Template.engiin.helpers({
     engiins: function() {
-        return homePlans.find({ "category.categoryName": "Энгийн хаус"});
+        return homePlans.find();
     }
 });

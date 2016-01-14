@@ -1,12 +1,12 @@
 Template.pool.onCreated(function () {
     var self = this;
     self.autorun(function () {
-        self.subscribe('service');
+        self.subscribe('pool');
     })
 });
 
 Template.pool.helpers({
     pools: function() {
-        return service.find({ "category.categoryName": "pool"});
+        return service.find();
     }
 });

@@ -1,12 +1,12 @@
 Template.dunzen.onCreated(function () {
     var self = this;
     self.autorun(function () {
-        self.subscribe('homePlans');
+        self.subscribe('dunzen');
     })
 });
 
 Template.dunzen.helpers({
     dunzens: function() {
-        return homePlans.find({ "category.categoryName": "Дүнзэн хаус"});
+        return homePlans.find();
     }
 });

@@ -1,12 +1,12 @@
 Template.modern.onCreated(function () {
     var self = this;
     self.autorun(function () {
-        self.subscribe('homePlans');
+        self.subscribe('modern');
     })
 });
 
 Template.modern.helpers({
     moderns: function() {
-        return homePlans.find({ "category.categoryName": "Модерн хаус"});
+        return homePlans.find();
     }
 });
