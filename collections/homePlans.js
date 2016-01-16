@@ -35,6 +35,14 @@ homePlansSchema = new SimpleSchema({
         type: String,
         label: "Зургийн хаяг"
     },
+    //content: {
+    //    type: String,
+    //    label: 'Contnet',
+    //    autoform: {
+    //        type: 'textarea',
+    //        rows: 5
+    //    }
+    //},
     content: {
         type: String,
         label: "Контент",

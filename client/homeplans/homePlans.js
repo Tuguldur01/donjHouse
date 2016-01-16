@@ -23,16 +23,3 @@ Template.homeplanSingle.onRendered(function () {
         $('.materialboxed').materialbox();
     });
 });
-
-Template.homeplanSingle.onCreated(function () {
-    var self = this;
-    self.autorun(function () {
-        self.subscribe('Images');
-    })
-});
-
-Template.homeplanSingle.helpers({
-    Images: function() {
-        return Images.find();
-    }
-});

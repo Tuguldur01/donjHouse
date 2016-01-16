@@ -23,7 +23,6 @@ accounts-ui
 accounts-base
 accounts-password
 alanning:roles
-meteortoys:allthings
 fortawesome:fontawesome
 cfs:standard-packages
 cfs:gridfs
@@ -34,3 +33,6 @@ sacha:spin
 yogiben:admin
 meteorhacks:kadira@2.20.1
 ryw:blog
+dburles:google-maps
+meteortoys:allthings
+alethes:pages

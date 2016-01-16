@@ -2,9 +2,9 @@ Meteor.publish('homePlans', function () {
     return homePlans.find({});
 });
 
-Meteor.publish('posts', function () {
-    return posts.find({});
-});
+//Meteor.publish('posts', function () {
+//    return posts.find({});
+//});
 
 Meteor.publish('elite', function(){
     return homePlans.find({ "category.categoryName": "Элит хаус"})
