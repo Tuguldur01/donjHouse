@@ -28,3 +28,33 @@
 
     {{> footer}}
 </template>
+
+<template name="zasvartai">
+
+    <div class="container">
+        <h1 class="center text_h2">
+            Манай сайт засвартай байна. Та манай <span class="center header span_h2">7018-0313</span> утсаар ярих эсвэл email илгээж болно.
+        </h1>
+
+        <br>
+    </div>
+
+    <div class="container">
+        {{#autoForm schema=contactFormSchema id="contactForm" type="method" meteormethod="sendEmail"}}
+        <fieldset>
+            <legend>email илгээх</legend>
+            {{> afQuickField name="name"}}
+            {{> afQuickField name="email"}}
+            {{> afQuickField name="message" rows=10}}
+            <div>
+                <button class="btn waves-effect waves-light red darken-1" type="submit">Илгээх
+                    <i class="mdi-content-send right white-text"></i>
+                </button>
+                <button type="reset" class="btn waves-effect waves-light darken-1">Reset</button>
+            </div>
+        </fieldset>
+        {{/autoForm}}
+    </div><br><br><br>
+
+    {{> footer}}
+</template>
