@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfcc0931-5dd8-45c8-af6a-fc96a66ac928" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/homeplans/homeplans.html" afterPath="$PROJECT_DIR$/client/homeplans/homeplans.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/partials/nav.html" afterPath="$PROJECT_DIR$/client/partials/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes.js" afterPath="$PROJECT_DIR$/lib/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/homeplans/3. songodog/songodog.html" afterPath="$PROJECT_DIR$/client/homeplans/3. songodog/songodog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/homeplans/homeplans.html" afterPath="$PROJECT_DIR$/client/homeplans/homeplans.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/homeplans/1. elite/elite.html" afterPath="$PROJECT_DIR$/client/homeplans/1. elite/elite.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/homeplans/2. modern/modern.html" afterPath="$PROJECT_DIR$/client/homeplans/2. modern/modern.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/homeplans/3. songodog/songodog.html" afterPath="$PROJECT_DIR$/client/homeplans/3. songodog/songodog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes.js" afterPath="$PROJECT_DIR$/lib/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/howItWorks/howitworks.html" afterPath="$PROJECT_DIR$/client/howItWorks/howitworks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/contact/contact.html" afterPath="$PROJECT_DIR$/client/contact/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/howItWorks/howitworks.html" afterPath="$PROJECT_DIR$/client/howItWorks/howitworks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/homeplans/2. modern/modern.html" afterPath="$PROJECT_DIR$/client/homeplans/2. modern/modern.html" />
     </list>
     <ignored path="donjHouseMeteor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,38 +34,34 @@
     <favorites_list name="donjHouseMeteor" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.31619537">
+    <splitter split-orientation="horizontal" split-proportion="0.27892032">
       <split-first>
         <leaf>
-          <file leaf-file-name="canada.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/homeplans/5. canada/canada.html">
+          <file leaf-file-name="homeTemplate.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/home/homeTemplate.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.8461537" vertical-offset="223" max-vertical-offset="2210">
-                  <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="-8.5" vertical-offset="204" max-vertical-offset="7922">
+                  <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="engiin.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/homeplans/6. engiin/engiin.html">
+          <file leaf-file-name="faq.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/faq/faq.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1785">
-                  <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="0.47984645" vertical-offset="5" max-vertical-offset="595">
+                  <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="packages" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.meteor/packages">
+          <file leaf-file-name="faq.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/faq/faq.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9122486" vertical-offset="45" max-vertical-offset="748">
-                  <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+                  <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -75,31 +71,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="dunzen.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/homeplans/4. dunzen/dunzen.html">
+          <file leaf-file-name="career.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/career/career.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-                  <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+                <state vertical-scroll-proportion="-3.6346154" vertical-offset="576" max-vertical-offset="1156">
+                  <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/partials/nav.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.8461537" vertical-offset="102" max-vertical-offset="1122">
-                  <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="hudag.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/service/5. hudag/hudag.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.61420345" vertical-offset="207" max-vertical-offset="1088">
-                  <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.51055664" vertical-offset="176" max-vertical-offset="1088">
+                  <caret line="26" column="98" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
                   <folding />
                 </state>
               </provider>
@@ -115,9 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/homeplans/2. modern/modern.js" />
-        <option value="$PROJECT_DIR$/client/homeplans/3. songodog/songodog.js" />
-        <option value="$PROJECT_DIR$/client/homeplans/4. dunzen/dunzen.js" />
         <option value="$PROJECT_DIR$/client/homeplans/5. canada/canada.js" />
         <option value="$PROJECT_DIR$/client/homeplans/6. engiin/engiin.js" />
         <option value="$PROJECT_DIR$/client/service/1. bisedkies/bisedkies.js" />
@@ -150,12 +133,9 @@
         <option value="$PROJECT_DIR$/donjHouseMeteor.js" />
         <option value="$PROJECT_DIR$/collections/common.js" />
         <option value="$PROJECT_DIR$/mup.json" />
-        <option value="$PROJECT_DIR$/client/home/homeTemplate.html" />
-        <option value="$PROJECT_DIR$/client/career/career.html" />
         <option value="$PROJECT_DIR$/client/service/1. bisedkies/bisedkies.html" />
         <option value="$PROJECT_DIR$/client/partials/admin-sign.html" />
         <option value="$PROJECT_DIR$/client/contact/contact.html" />
-        <option value="$PROJECT_DIR$/lib/routes.js" />
         <option value="$PROJECT_DIR$/client/howItWorks/howitworks.html" />
         <option value="$PROJECT_DIR$/client/homeplans/homeplans.html" />
         <option value="$PROJECT_DIR$/client/homeplans/1. elite/elite.html" />
@@ -164,8 +144,14 @@
         <option value="$PROJECT_DIR$/client/homeplans/4. dunzen/dunzen.html" />
         <option value="$PROJECT_DIR$/client/homeplans/5. canada/canada.html" />
         <option value="$PROJECT_DIR$/client/homeplans/6. engiin/engiin.html" />
-        <option value="$PROJECT_DIR$/client/partials/nav.html" />
         <option value="$PROJECT_DIR$/client/service/5. hudag/hudag.html" />
+        <option value="$PROJECT_DIR$/client/home/homeTemplate.html" />
+        <option value="$PROJECT_DIR$/lib/routes.js" />
+        <option value="$PROJECT_DIR$/client/faq/faq.js" />
+        <option value="$PROJECT_DIR$/client/faq/faq.html" />
+        <option value="$PROJECT_DIR$/client/career/career.js" />
+        <option value="$PROJECT_DIR$/client/career/career.html" />
+        <option value="$PROJECT_DIR$/client/partials/nav.html" />
       </list>
     </option>
   </component>
@@ -234,10 +220,6 @@
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -253,25 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5. hudag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="donjHouseMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="donjHouseMeteor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="career" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,15 +270,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -334,27 +298,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20967741" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14524421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14460154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -378,34 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/homeplans/6. engiin/engiin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23062016" vertical-offset="0" max-vertical-offset="516">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/service/1. bisedkies/bisedkies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3624031" vertical-offset="0" max-vertical-offset="516">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/service/2. pool/pool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3624031" vertical-offset="0" max-vertical-offset="516">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/service/3. modonDotorlogoo/mDotorlogoo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3624031" vertical-offset="0" max-vertical-offset="516">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/service/4. gadnaToh/gadnaToh.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09883721" vertical-offset="0" max-vertical-offset="516">
@@ -567,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/contact/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10920771" vertical-offset="0" max-vertical-offset="467">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collections/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54603857" vertical-offset="0" max-vertical-offset="467">
@@ -588,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/donjHouseMeteor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44815466" vertical-offset="0" max-vertical-offset="569">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mup.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850">
@@ -606,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36818182" vertical-offset="195" max-vertical-offset="1683">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/career/career.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22516556" vertical-offset="0" max-vertical-offset="453">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -637,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60334027" vertical-offset="0" max-vertical-offset="1751">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/contact/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5181818" vertical-offset="350" max-vertical-offset="1105">
@@ -665,13 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/home/homeTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6545454" vertical-offset="35" max-vertical-offset="7922">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/homeplans/2. modern/modern.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5022727" vertical-offset="0" max-vertical-offset="1751">
@@ -690,44 +591,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2608089" vertical-offset="0" max-vertical-offset="1785">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453967703697" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/homeplans/5. canada/canada.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8461537" vertical-offset="223" max-vertical-offset="2210">
+        <state vertical-scroll-proportion="-11.692307" vertical-offset="223" max-vertical-offset="2210">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -740,36 +612,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/partials/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="102" max-vertical-offset="1122">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/homeplans/6. engiin/engiin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1785">
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1785">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9122486" vertical-offset="45" max-vertical-offset="748">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/service/5. hudag/hudag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61420345" vertical-offset="207" max-vertical-offset="1088">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.42418426" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.meteor/packages">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22316866" vertical-offset="22" max-vertical-offset="748">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3475298" vertical-offset="0" max-vertical-offset="1819">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454142280954" expanded="true" signature="-1:-1" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/contact/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20272572" vertical-offset="0" max-vertical-offset="587">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1453182057256" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453182057256" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/donjHouseMeteor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44425088" vertical-offset="0" max-vertical-offset="574">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <marker date="1453256579759" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453256579759" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453256579759" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453256579759" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: 'donjHouse'...}" />
+            <marker date="1453256579759" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453256579759" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/home/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <marker date="1452147746834" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1452147746834" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1452147746834" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1452147746834" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/career/career.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11584327" vertical-offset="0" max-vertical-offset="587">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <marker date="1454143441768" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1454143441768" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/faq/faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/home/homeTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="204" max-vertical-offset="7922">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/faq/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47984645" vertical-offset="5" max-vertical-offset="595">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/career/career.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6346154" vertical-offset="576" max-vertical-offset="1156">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/partials/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51055664" vertical-offset="176" max-vertical-offset="1088">
+          <caret line="26" column="98" selection-start-line="26" selection-start-column="98" selection-end-line="26" selection-end-column="98" />
           <folding />
         </state>
       </provider>
