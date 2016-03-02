@@ -3,6 +3,7 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
 #container {
     margin-left: 6%;
     margin-right: 6%;
@@ -9778,7 +9779,7 @@ select {
     top: 0;
     margin: 0;
     height: 100%;
-    height: calc(100% + 60px);
+    height: calc(100% + 100px);
     height: -moz-calc(100%);
     padding-bottom: 60px;
     background-color: #fff;

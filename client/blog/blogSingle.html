@@ -1,11 +1,14 @@
 <template name="blogSingle">
     {{> nav}}
     <div class="container">
-        {{> blogShow}}
+        <div class="container">
+            <div class="container">
+                {{> blogShow}}
+            </div>
+        </div>
         {{> shareit}}
         {{> disqus this}}
         {{blogPager}}
     </div>
     {{> footer}}
-    {{> blogLatest num=5}}
 </template>
