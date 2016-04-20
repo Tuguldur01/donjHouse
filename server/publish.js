@@ -1,5 +1,5 @@
 Meteor.publish('homePlans', function () {
-    return homePlans.find({});
+    return homePlans.findOne();
 });
 
 //Meteor.publish('posts', function () {
